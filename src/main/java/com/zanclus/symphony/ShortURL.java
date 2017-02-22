@@ -22,7 +22,7 @@ public class ShortURL {
      * @return The shortened URL string
      */
     public String set(String url) {
-        String shortUrl = null;
+        String shortUrl;
         if (urlMappings.containsValue(url)) {
             shortUrl = urlMappings.get(url);
         } else {
